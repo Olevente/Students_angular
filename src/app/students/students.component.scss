@@ -1,0 +1,47 @@
+
+h2{
+    margin-top: 60px;
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    margin-top: 60px;
+    padding: 20px;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.studentsTable{
+    display: flex;
+    width: 600px;
+    background-color: rgba($color: #151574, $alpha: 1.0);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 15px 25px rgba(18, 40, 94, 0.1);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.studentsTable table{
+    width: 600px;
+}
+
+.scoresTable{
+    display: flex;
+    background-color: rgb(13, 164, 66);
+    box-shadow: 0 15px 25px rgb(0, 0, 0,0.1);
+    border-radius: 15px;
+    width: 250px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoresTable table{
+    width: 300px;
+}
