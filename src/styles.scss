@@ -1,0 +1,12 @@
+
+$theme-colors: (
+  "success":    rgb(61, 35, 101),
+  "info":       rgb(70, 46, 232),
+  "warning":    rgb(61, 133, 52),
+  "danger":     rgb(74, 37, 71),
+
+);
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+@import 'bootstrap';
